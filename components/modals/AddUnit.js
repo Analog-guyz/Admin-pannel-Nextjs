@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import styles from "../../styles/AddUnit.module.scss"
-import Form from '../form/form';
+import Form from '../form/Form';
 
 function AddUnit({ShowModal, setShowModal ,setShowModalMessage}) {
     const [formValues, setformValues] = useState({

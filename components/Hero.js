@@ -3,7 +3,7 @@ import styles from "../styles/Hero.module.scss"
 import TeamMembers from './TeamMembers'
 import { Plus,Bitcoin_svg,Dollar_Svg,Euro_svg,Yen_svg } from '../svg/svg'
 import Comparison from './Comparison'
-import AddUnit from './modals/addunit'
+import AddUnit from './modals/AddUnit'
 import Modal_Success_message from './modals/Modal_Success_message'
 import Mini_Profile from './Mini_Profile'
 import HomepageChart from "./charts/HomepageChart"
