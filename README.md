@@ -1,4 +1,4 @@
-Admin pannel HomePage Frontend with Nextjs
+Admin pannel HomePage with Nextjs (Frontend only)
 
 Live Demo 👀 : https://n75lc.sse.codesandbox.io/
 
