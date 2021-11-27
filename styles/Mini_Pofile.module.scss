@@ -1,0 +1,29 @@
+.profile_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    
+.profile_name{
+    @media (max-width: 860px) {
+        display: none;
+    } 
+  }
+}
+.profile_pic{
+    border-radius: 50%;
+}
+.profile_pic_div{
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0px 15px;
+}
+.handle_click_out_div{
+    position: relative;
+    border-radius: 50%;
+}

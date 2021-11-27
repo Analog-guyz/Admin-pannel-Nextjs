@@ -1,0 +1,224 @@
+.hero{
+    width: calc(100% - 160px);
+    padding: 0px 45px;
+    margin-left: 160px;
+    padding-top: 30px;
+    z-index:1;
+    @media (max-width: 570px) {
+        padding: 0px 5px;
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+// _____________________________________________
+// header section
+.header{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 970px) {
+        height: 13%;
+    }
+    @media (max-width: 570px) {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.header_left_side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    h1{
+        margin-bottom: 5px;
+        color: #11193C;
+    }
+    p{
+        color: #8990AD;
+    }
+    @media (max-width: 570px) {
+        margin-top: 50px;
+        p{
+            margin-bottom: 15px;
+        }
+    }
+}
+.header_right_side{
+    display: flex;
+}
+.button_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+}
+.button{
+    background-color: #00E38C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 14px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(155, 155, 155);
+    cursor: pointer;
+    a{
+        padding-left:10px ;
+        font-size: 18px;
+        color: white;
+    }
+    @media (max-width: 970px) {
+        display: none;
+    }    
+}
+.button_small_Screen_Wrapper{
+    
+    @media (max-width: 570px) {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 25px
+        ;
+    }  
+}
+.button_small_Screen{
+    background-color: #00E38C;
+    display: flex;
+    align-items: center;
+    width: 135px;
+    padding: 10px 14px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(155, 155, 155);
+    cursor: pointer;
+    a{
+        padding-left:10px ;
+        font-size: 18px;
+        color: white;
+    }
+    @media (min-width: 970px) {
+        display: none;
+    }
+}
+
+// _____________________________________________
+
+
+// balance section 
+.balance_section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 35px;
+    @media (max-width: 860px) {
+        display: grid; 
+        grid-auto-columns: 1fr; 
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: 1fr 1fr; 
+        gap: 30px 30px; 
+        justify-items: start; 
+    }
+    @media (max-width: 570px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    }
+    p{
+        color: #8990AD;
+        font-size: 18px;
+        margin-bottom: 20px;
+        font-weight: lighter;
+    }
+    h2{
+        color: #11193C;
+        font-weight: 450;
+        font-size: 1.8rem;
+    }
+}
+.balance_section_unit_Wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.currency_icons{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 8px;
+    svg{
+        transform: scale(.8,.8);
+    }
+}
+
+.divider{
+    border-right: 1.5px solid #C5C9D7;
+    height: 85px;
+    @media (max-width: 860px) {
+        display: none;
+    }
+}
+
+// _____________________________________________
+
+
+// widget section 
+.widgets_Wrapper{
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 970px) {
+        flex-direction: column;
+        align-items: center;
+        justify-content: none;
+    }
+
+}
+// _____________________________________________
+
+// modal styles
+.Modal_Message_Wrapper{
+    width: calc(100% - 250px);
+    height: 50px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+}
+.Modal_Message{
+    height: 40px;
+    width: 20%;
+    background-color: #00E38C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:4px;
+    color: white;
+    p{
+        font-size: 1.3rem;
+    }
+}
+// _____________________________________________
+
+// chart section
+.chart_container{
+    margin: 80px 10px 40px 10px;
+}
+
+.chart_Wrapper{
+    width: 100%;
+    background-color: white;
+    height: fit-content;
+    box-shadow: 0px 0px 5px rgb(155, 155, 155);
+}
+.chart_title_Wrapper{
+    margin-bottom: 25px;
+    h2{
+        font-weight: 400;
+    }
+}
+
+// _____________________________________________
