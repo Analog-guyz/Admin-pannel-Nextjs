@@ -1,3 +1,3 @@
 Admin pannel HomePage Frontend with Nextjs
 
-Live Demo 👀 : https://tdeqd.sse.codesandbox.io/
+Live Demo 👀 : https://n75lc.sse.codesandbox.io/
